@@ -549,27 +549,38 @@ gap: 24px;
   letter-spacing: 0.02em;
 }
 
-.User-Friendly {
+.User-Friendly-App {
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    padding: 40px 32px;
+    text-align: left;
+    background-color: #4D5AE5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-position: absolute;
-top: 50%;
-left: 50%;
-
-transform: translate(-50%, -50%);
-width: 350px;
-height: 350px;
-
-}
-main .image
-main .text
-
- {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  box-sizing: border-box;
-}
-main .image img {
 
 }
+
+.User-Friendly-div:hover.User-Friendly-App {
+  transform: translateY(0%);
+}
+
+.User-Friendly-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-fourth:hover .overflow-text {
+  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+ 
+
 
