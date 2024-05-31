@@ -295,6 +295,7 @@ body {
   
   
   .container{
+    
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -589,13 +590,9 @@ height: 40px;
 }
 
 .container-social {
- 
+ margin-top: 0%;
   width: 208px;
 height: 80px;
-
-  
- 
-
 }
 .footer-parag-media {
   font-weight: 500;
@@ -641,12 +638,16 @@ height: 80px;
   background-color: #31d0aa;
 }
 .svg-footer{
-  display: flex;
-
- 
-  border-radius: 4px;
-
-
+  flex: 1;
+  margin: 0 10px;
   
- 
+}
+.container-futer{
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+    gap: 24px;
 }
