@@ -633,13 +633,18 @@ height: 80px;
 .icon-item-footer {
   fill: #f4f4fd;
 }
+.icon-item:hover,
+.icon-item:focus {
+  background-color: #404BBF;
+}
+
 .icon-link-footer:hover,
 .icon-link-footer:focus {
-  background-color: #31d0aa;
+    background-color: #31d0aa;
 }
+
 .svg-footer{
-  flex: 1;
-  margin: 0 10px;
+ margin-right: 120px;
   
 }
 .container-futer{
