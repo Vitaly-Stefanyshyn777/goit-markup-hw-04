@@ -673,4 +673,5 @@ height: 80px;
   margin: 0 auto;
   flex-wrap: wrap;
     gap: 24px;
+    align-items: baseline; 
 }
